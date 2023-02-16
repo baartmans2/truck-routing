@@ -1,4 +1,4 @@
-# WGUPS Routing Program, by Raymond Baartmans ID #001973555
+# Routing Program, by Raymond Baartmans
 
 import hub
 import hash
@@ -6,7 +6,7 @@ import utils
 
 done = False
 
-print("WGUPS Routing Program, by Raymond Baartmans")
+print("Routing Program, by Raymond Baartmans")
 print(
     f"The total distance for all trucks for the day (9/10/2022) was { round(hub.calculateDeliveries(10), 2) } miles.")
 
